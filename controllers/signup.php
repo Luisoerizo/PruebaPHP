@@ -105,11 +105,13 @@ class SignUp extends Controller
         }
 
         if (!$nombre || !$password || !$apaterno || !$amaterno || !$nacimiento || !$email || !$telefono || !$password_confirm) {
-            $mensaje = "No puedes dejar campos vacíos";
-            $tipoMensaje = "alert alert-danger";
+            echo '<div class="alert alert-danger" role="alert">
+            No puedes dejar campos vacíos
+          </div>';
         }elseif(!$nombreCheck || !$passwordCheck || !$apaternoCheck || !$amaternoCheck || !$nacimientoCheck || !$emailCheck || !$telefonoCheck){
-            $mensaje = "Algunos de los datos que ingresaste no son válidos, por favor ingrésalos correctamente.";
-            $tipoMensaje = "alert alert-danger";
+            echo '<div class="alert alert-danger" role="alert">
+            Algunos de los datos que ingresaste no son válidos, por favor ingrésalos correctamente.
+          </div>';
         }
          else {
             $pass_cifrada = password_hash($password, PASSWORD_DEFAULT, array("cost" => 10)); //Cifrando 10 veces la contraseña
