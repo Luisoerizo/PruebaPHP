@@ -14,6 +14,3 @@ Abrir [https://jquery.com/](https://jquery.com/) para verlo en el navegador.
 
 ### Bootstrap 4 Framework para front-end.
 Abrir [https://getbootstrap.com/](https://getbootstrap.com/) para verlo en el navegador.
-
-### SweetAlert2 - librería de JavaScript para cuadros emergentes
-Abrir [https://sweetalert2.github.io/](https://sweetalert2.github.io/) para verlo en el navegador.
