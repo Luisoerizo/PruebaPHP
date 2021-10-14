@@ -1,0 +1,114 @@
+[14-Oct-2021 14:34:03 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:34:03 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:34:03 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:34:03 America/Mexico_City] email valido
+[14-Oct-2021 14:34:03 America/Mexico_City] 7341161248
+[14-Oct-2021 14:34:03 America/Mexico_City] telefono valido
+[14-Oct-2021 14:34:03 America/Mexico_City] fecha valido
+[14-Oct-2021 14:34:03 America/Mexico_City] password valido
+[14-Oct-2021 14:36:13 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:36:13 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:36:13 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:36:13 America/Mexico_City] email valido
+[14-Oct-2021 14:36:13 America/Mexico_City] 3312312312
+[14-Oct-2021 14:36:13 America/Mexico_City] telefono valido
+[14-Oct-2021 14:36:13 America/Mexico_City] fecha no valido
+[14-Oct-2021 14:36:13 America/Mexico_City] password valido
+[14-Oct-2021 14:37:29 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:37:29 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:37:29 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:37:29 America/Mexico_City] email valido
+[14-Oct-2021 14:37:29 America/Mexico_City] 1002002000
+[14-Oct-2021 14:37:29 America/Mexico_City] telefono valido
+[14-Oct-2021 14:37:29 America/Mexico_City] fecha valido
+[14-Oct-2021 14:37:29 America/Mexico_City] password valido
+[14-Oct-2021 14:38:25 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:38:25 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:38:25 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:38:25 America/Mexico_City] email valido
+[14-Oct-2021 14:38:25 America/Mexico_City] 7341161248
+[14-Oct-2021 14:38:25 America/Mexico_City] telefono valido
+[14-Oct-2021 14:38:25 America/Mexico_City] fecha valido
+[14-Oct-2021 14:38:25 America/Mexico_City] password valido
+[14-Oct-2021 14:39:24 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:39:24 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:39:24 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:39:24 America/Mexico_City] email valido
+[14-Oct-2021 14:39:24 America/Mexico_City] 7341123312
+[14-Oct-2021 14:39:24 America/Mexico_City] telefono valido
+[14-Oct-2021 14:39:24 America/Mexico_City] fecha valido
+[14-Oct-2021 14:39:24 America/Mexico_City] password valido
+[14-Oct-2021 14:40:35 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:40:35 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:40:35 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:40:35 America/Mexico_City] email valido
+[14-Oct-2021 14:40:35 America/Mexico_City] 7341123222
+[14-Oct-2021 14:40:35 America/Mexico_City] telefono valido
+[14-Oct-2021 14:40:35 America/Mexico_City] fecha valido
+[14-Oct-2021 14:40:35 America/Mexico_City] password valido
+[14-Oct-2021 14:41:28 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:41:28 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:41:28 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:41:28 America/Mexico_City] email valido
+[14-Oct-2021 14:41:28 America/Mexico_City] 7341161248
+[14-Oct-2021 14:41:28 America/Mexico_City] telefono valido
+[14-Oct-2021 14:41:28 America/Mexico_City] fecha valido
+[14-Oct-2021 14:41:28 America/Mexico_City] password valido
+[14-Oct-2021 14:42:05 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:42:05 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:42:05 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:42:05 America/Mexico_City] email valido
+[14-Oct-2021 14:42:05 America/Mexico_City] 7341161248
+[14-Oct-2021 14:42:05 America/Mexico_City] telefono valido
+[14-Oct-2021 14:42:05 America/Mexico_City] fecha valido
+[14-Oct-2021 14:42:05 America/Mexico_City] password valido
+[14-Oct-2021 14:42:05 America/Mexico_City] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'luisoerizo@gmail.com' for key 'email' in C:\xampp\htdocs\PruebaPHP\models\signupModel.php:23
+Stack trace:
+#0 C:\xampp\htdocs\PruebaPHP\models\signupModel.php(23): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\PruebaPHP\controllers\signup.php(123): SignUpModel->insertar(Array)
+#2 C:\xampp\htdocs\PruebaPHP\libs\app.php(47): SignUp->registrarUsuario()
+#3 C:\xampp\htdocs\PruebaPHP\index.php(20): App->__construct()
+#4 {main}
+[14-Oct-2021 14:42:05 America/Mexico_City] PHP Warning:  Undefined property: SignUp::$render in C:\xampp\htdocs\PruebaPHP\controllers\signup.php on line 136
+[14-Oct-2021 14:42:05 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:42:05 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:42:05 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:42:05 America/Mexico_City] email valido
+[14-Oct-2021 14:42:05 America/Mexico_City] 7341161248
+[14-Oct-2021 14:42:05 America/Mexico_City] telefono valido
+[14-Oct-2021 14:42:05 America/Mexico_City] fecha valido
+[14-Oct-2021 14:42:05 America/Mexico_City] password valido
+[14-Oct-2021 14:42:06 America/Mexico_City] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'luisoerizo@gmail.com' for key 'email' in C:\xampp\htdocs\PruebaPHP\models\signupModel.php:23
+Stack trace:
+#0 C:\xampp\htdocs\PruebaPHP\models\signupModel.php(23): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\PruebaPHP\controllers\signup.php(123): SignUpModel->insertar(Array)
+#2 C:\xampp\htdocs\PruebaPHP\libs\app.php(47): SignUp->registrarUsuario()
+#3 C:\xampp\htdocs\PruebaPHP\index.php(20): App->__construct()
+#4 {main}
+[14-Oct-2021 14:42:06 America/Mexico_City] PHP Warning:  Undefined property: SignUp::$render in C:\xampp\htdocs\PruebaPHP\controllers\signup.php on line 136
+[14-Oct-2021 14:45:43 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:45:43 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:45:43 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:45:43 America/Mexico_City] email valido
+[14-Oct-2021 14:45:43 America/Mexico_City] 7341161248
+[14-Oct-2021 14:45:43 America/Mexico_City] telefono valido
+[14-Oct-2021 14:45:43 America/Mexico_City] fecha valido
+[14-Oct-2021 14:45:43 America/Mexico_City] password valido
+[14-Oct-2021 14:45:43 America/Mexico_City] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7341161248' for key 'telefono' in C:\xampp\htdocs\PruebaPHP\models\signupModel.php:23
+Stack trace:
+#0 C:\xampp\htdocs\PruebaPHP\models\signupModel.php(23): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\PruebaPHP\controllers\signup.php(123): SignUpModel->insertar(Array)
+#2 C:\xampp\htdocs\PruebaPHP\libs\app.php(47): SignUp->registrarUsuario()
+#3 C:\xampp\htdocs\PruebaPHP\index.php(20): App->__construct()
+#4 {main}
+[14-Oct-2021 14:45:43 America/Mexico_City] PHP Warning:  Undefined variable $mensaje in C:\xampp\htdocs\PruebaPHP\controllers\signup.php on line 134
+[14-Oct-2021 14:45:43 America/Mexico_City] PHP Warning:  Undefined variable $tipoMensaje in C:\xampp\htdocs\PruebaPHP\controllers\signup.php on line 135
+[14-Oct-2021 14:45:43 America/Mexico_City] PHP Warning:  Undefined property: SignUp::$render in C:\xampp\htdocs\PruebaPHP\controllers\signup.php on line 136
+[14-Oct-2021 14:46:03 America/Mexico_City] Nombre valido
+[14-Oct-2021 14:46:03 America/Mexico_City] apaterno valido
+[14-Oct-2021 14:46:03 America/Mexico_City] amaterno valido
+[14-Oct-2021 14:46:03 America/Mexico_City] email valido
+[14-Oct-2021 14:46:03 America/Mexico_City] 7341161231
+[14-Oct-2021 14:46:03 America/Mexico_City] telefono valido
+[14-Oct-2021 14:46:03 America/Mexico_City] fecha valido
+[14-Oct-2021 14:46:03 America/Mexico_City] password valido
